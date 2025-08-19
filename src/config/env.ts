@@ -99,7 +99,7 @@ export const validateConfig = (): void => {
     
     Please check your .env file and ensure EXPO_PUBLIC_SUPABASE_URL and EXPO_PUBLIC_SUPABASE_ANON_KEY are set.
     
-    If you don't have a .env file, copy config.env.example to .env and fill in your Supabase credentials.
+    If you don't have a .env file, copy .env.example to .env and fill in your Supabase credentials.
     
     IMPORTANT: The app now prioritizes reading from your .env file over Expo config.
     

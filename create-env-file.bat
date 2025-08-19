@@ -11,7 +11,7 @@ if exist .env (
 )
 
 REM Copy from example
-copy config.env.example .env
+copy .env.example .env
 
 if exist .env (
     echo.
@@ -29,6 +29,6 @@ if exist .env (
     pause
 ) else (
     echo Failed to create .env file!
-    echo Please create it manually by copying config.env.example to .env
+    echo Please create it manually by copying .env.example to .env
     pause
 )
